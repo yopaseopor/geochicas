@@ -289,11 +289,11 @@ defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/i
 false
 			),
 
-			make_layer(
-				QURL + "?data=(node[sexual_antiharassment_policy][sexual_antiharassment_policy:name](bbox);node[wheelchair=limited][amenity](bbox);node[wheelchair=limited][office](bbox););out+skel;",
-				name="#c#&nbspwheelchair=limited",
-				defaultPoint("yellow"),
-				false
+make_layer(
+QURL + "?data=way[building]['sexual_antiharassment_policy:name'='NoCallem'](bbox);out+skel;",
+name="#ex#&nbspProtocol NO Callem (edificis)",
+defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/img/nocallem_icon.jpg"),
+false
 			),
 
 			make_layer(
