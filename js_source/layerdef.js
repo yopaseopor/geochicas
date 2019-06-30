@@ -290,7 +290,7 @@ function layerdef(type){
 			),
 
 			make_layer(
-				QURL + "?data=(node[wheelchair=limited][shop](bbox);node[wheelchair=limited][amenity](bbox);node[wheelchair=limited][office](bbox););out+skel;",
+				QURL + "?data=(node[sexual_antiharassment_policy][sexual_antiharassment_policy:name](bbox);node[wheelchair=limited][amenity](bbox);node[wheelchair=limited][office](bbox););out+skel;",
 				name="#c#&nbspwheelchair=limited",
 				defaultPoint("yellow"),
 				false
