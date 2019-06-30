@@ -289,26 +289,13 @@ defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/i
 false
 			),
 
-make_layer(
-QURL + "?data=way[building]['sexual_antiharassment_policy:name'='NoCallem'](bbox);out+skel;",
-name="#ex#&nbspProtocol NO Callem (edificis)",
-defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/img/nocallem_icon.jpg"),
-false
-			),
-
-make_layer(
-QURL + "?data=way['maxspeed'='80'](bbox);out+skel;",
-name="#ex#&nbspES:P1 Forward ",
-tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
-false
-			),
-
 			make_layer(
-				QURL + "?data=(node[!wheelchair][shop](bbox);node[!wheelchair][amenity](bbox);node[!wheelchair][office](bbox););out+skel;",
-				name="#c#&nbspFalta wheelchair",
-				defaultPoint("black"),
-				false
+				QURL + "?data=way['sexual_antiharassment_policy:name'='NoCallem'](bbox);node(w););out+skel;",
+				name="#l#Protocol NO Callem (edificis)",
+				defaultSolidLine("purple"),
+				false,
 			),
+
 			 
 			]);
 	}
