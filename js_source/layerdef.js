@@ -283,7 +283,7 @@ function layerdef(type){
 		map.addLayers([
 		
 make_layer(
-QURL + "?data=node['sexual_antiharassment_policy'='*'](bbox);out+skel;",
+QURL + "?data=node['sexual_antiharassment_policy:name'='NoCallem'](bbox);out+skel;",
 name="#ex#&nbspProtocol NO Callem",
 defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/img/nocallem_icon.jpg"),
 false
