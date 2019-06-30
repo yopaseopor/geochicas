@@ -283,7 +283,7 @@ function layerdef(type){
 		map.addLayers([
 		
 			make_layer(
-				QURL + "?data=(node[sexual_antiharassment_policy][sexual_antiharassment_policy:name](bbox);way[sexual_antiharassment_policy][sexual_antiharassment_policy:name](bbox););out+skel;",
+				QURL + "?data=(node['sexual_antiharassment_policy']['sexual_antiharassment_policy:name'](bbox);way['sexual_antiharassment_policy']['sexual_antiharassment_policy:name'](bbox););out+skel;",
 				name="#c#&nbspwheelchair=yes",
 				defaultPoint("lime"),
 				false
