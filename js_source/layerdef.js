@@ -282,11 +282,11 @@ function layerdef(type){
 		
 		map.addLayers([
 		
-			make_layer(
-				QURL + "?data=(node['sexual_antiharassment_policy']['sexual_antiharassment_policy:name'](bbox);way['sexual_antiharassment_policy']['sexual_antiharassment_policy:name'](bbox););out+skel;",
-				name="#c#&nbspwheelchair=yes",
-				defaultPoint("lime"),
-				false
+make_layer(
+QURL + "?data=node['traffic_sign:backward'='ES:P1c'](bbox);out+skel;",
+name="#ex#&nbspES:P1c Backward ",
+tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1c.png"),
+false
 			),
 
 			make_layer(
