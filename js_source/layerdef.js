@@ -283,9 +283,9 @@ function layerdef(type){
 		map.addLayers([
 		
 make_layer(
-QURL + "?data=node['traffic_sign:backward'='ES:P1c'](bbox);out+skel;",
-name="#ex#&nbspES:P1c Backward ",
-tsbackward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1c.png"),
+QURL + "?data=node['sexual_antiharassment_policy'='*'](bbox);out+skel;",
+name="#ex#&nbspProtocol NO Callem",
+defaultExtPoint("https://github.com/yopaseopor/geochicas/img/nocallem_icon.png"),
 false
 			),
 
