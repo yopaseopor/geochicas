@@ -285,7 +285,7 @@ function layerdef(type){
 make_layer(
 QURL + "?data=node['sexual_antiharassment_policy'='*'](bbox);out+skel;",
 name="#ex#&nbspProtocol NO Callem",
-defaultExtPoint("https://github.com/yopaseopor/geochicas/img/nocallem_icon.png"),
+defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/img/nocallem_icon.jpg"),
 false
 			),
 
