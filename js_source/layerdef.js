@@ -291,8 +291,8 @@ false
 
 			make_layer(
 				QURL + "?data=(way['sexual_antiharassment_policy:name'='NoCallem'](bbox);node(w););out+skel;",
-				name="#l#wheelchair=no",
-				defaultSolidLine("red"),
+				name="#l#&nbspProtocol NO Callem (edificis)",
+				defaultSolidLine("purple"),
 				false,
 			),
 
