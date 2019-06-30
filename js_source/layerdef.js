@@ -290,9 +290,9 @@ false
 			),
 
 			make_layer(
-				QURL + "?data=way['sexual_antiharassment_policy:name'='NoCallem'](bbox);node(w););out+skel;",
-				name="#l#Protocol NO Callem (edificis)",
-				defaultSolidLine("purple"),
+				QURL + "?data=(way['sexual_antiharassment_policy:name'='NoCallem'](bbox);node(w););out+skel;",
+				name="#l#wheelchair=no",
+				defaultSolidLine("red"),
 				false,
 			),
 
