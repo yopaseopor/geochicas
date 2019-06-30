@@ -291,7 +291,7 @@ false
 
 			make_layer(
 				QURL + "?data=(way['sexual_antiharassment_policy:name'='NoCallem'](bbox);node(w););out+skel;",
-				name="#l#&nbspProtocol NO Callem (edificis)",
+				name="#l#&nbspProtocol NO Callem (edificis)<hr>No Callem és un pla de l’Ajuntament de Barcelona per visibilitzar i donar resposta a qualsevol agressió, abús o assetjament sexual en entorns d’oci nocturn.",
 				defaultSolidLine("purple"),
 				false,
 			),
