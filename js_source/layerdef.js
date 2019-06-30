@@ -296,11 +296,11 @@ defaultExtPoint("https://raw.githubusercontent.com/yopaseopor/geochicas/master/i
 false
 			),
 
-			make_layer(
-				QURL + "?data=(node[wheelchair=no][shop](bbox);node[wheelchair=no][amenity](bbox);node[wheelchair=no][office](bbox););out+skel;",
-				name="#c#&nbspwheelchair=no<hr>",
-				defaultPoint("red"),
-				false
+make_layer(
+QURL + "?data=way['maxspeed'='80'](bbox);out+skel;",
+name="#ex#&nbspES:P1 Forward ",
+tsforward("https://github.com/yopaseopor/beta_style_josm/raw/master/traffic_signs_EUR/ES/ES_P1.png"),
+false
 			),
 
 			make_layer(
